@@ -1,4 +1,4 @@
-.header{
+/* .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -24,4 +24,84 @@
     font-size: larger;
     font-weight: 800;
     list-style: none;
+} */
+
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d1117;
+    /* dark like first navbar */
+    color: white;
+    padding: 12px 40px;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Left section (logo + brand) */
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+.brand {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Middle links */
+.navbar-center {
+    display: flex;
+    gap: 25px;
+}
+
+.navbar-center a {
+    text-decoration: none;
+    color: #c9d1d9;
+    font-size: 0.95rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-center a:hover {
+    color: #ffffff;
+}
+
+/* Right section */
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login {
+    color: #c9d1d9;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.login:hover {
+    color: #ffffff;
+}
+
+.get-started {
+    background-color: transparent;
+    border: 1px solid #ffffff33;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.get-started:hover {
+    background-color: #21262d;
 }
